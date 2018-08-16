@@ -1,0 +1,80 @@
+
+
+.container{
+    min-width: 100%;
+    padding: 0px;
+}
+.contact{
+	background:url(../img/all2.jpg) no-repeat 0px 0px;
+	min-height:560px;
+	background-size:cover;
+	text-align:center;
+	padding:4em 0;
+}
+.contact h3{
+	color: #000;
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom:0.7em;
+}
+.contact p{
+  color: #000;
+  font-size: 1.15em;
+  font-weight: 500;
+}
+.contact form{	
+	width:43%;
+	margin:3em auto 0 auto;
+}
+.contact form input[type="text"], .contact textarea {
+  width: 43%;
+  margin-right: 4%;
+  padding: 10px;
+  border: 1px solid #b7b7b7;
+  font-size: 1em;
+  margin-bottom: 2em;
+  font-style:italic;
+  color: #000;
+  background: #fff;
+  outline: none;
+  font-weight: 400;
+  border-radius:7px;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+}
+.contact form input[type="text"].user,.contact textarea {
+	width:90%;
+	resize:none;
+}
+.contact textarea {
+	height:170px;
+}
+.contact form input[type="submit"] {
+  color: #fff;
+  background: #b7b7b7;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: none;
+  border: none;  
+  width:90%;
+  margin:0 auto;
+  padding: 10px 30px;
+  display: block;
+  border-radius:7px;  
+  transition: 0.5s all ease;
+
+}
+.contact form input[type="submit"]:hover{
+	background:#000;
+	color:#1f68ab;
+}
+.welcome{
+    text-align: center;
+  
+}
+#products{
+      text-align: center;
+}
